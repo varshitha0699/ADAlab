@@ -41,7 +41,7 @@ while (i > 0 && j > 0)
 	else
 		j--; 
 } 
-cout << "LCS of " << X << " and " << Y << " is " << lcs; 
+cout << "Longest component subsequence  is " << lcs; 
 } 
 
 int main() 
@@ -56,3 +56,4 @@ int q = Y.length();
 lcs(X, Y, p, q); 
 return 0; 
 }
+
